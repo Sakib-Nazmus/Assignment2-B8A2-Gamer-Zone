@@ -668,8 +668,7 @@ font-family: 'Work Sans', sans-serif;}
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 480px;
-    margin: auto;
+    width: 500px;
     gap: 20px;
 
 }
@@ -677,7 +676,7 @@ font-family: 'Work Sans', sans-serif;}
 
 
 .five-section-right img{
-    width: 400px;
+    width: 300px;
 }
 
 .five-section-left{
@@ -698,6 +697,7 @@ font-family: 'Work Sans', sans-serif;}
 
 .five-section-left p {
     text-align: center;
+    width: 400px;
 
     
 }
@@ -706,7 +706,7 @@ font-family: 'Work Sans', sans-serif;}
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 400px
     margin: auto;
 }
 
@@ -717,7 +717,7 @@ font-family: 'Work Sans', sans-serif;}
 }
 
 .five-left-text h5{
-    
+    text-align: left;
 }
 
 .five-section-left button{
