@@ -88,7 +88,7 @@ font-family: 'Work Sans', sans-serif;}
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 60vw;
+    width: 50vw;
     height: 85vh;
     display: flex;
     align-items: center;
@@ -174,9 +174,86 @@ font-family: 'Work Sans', sans-serif;}
 
 .first-right img{
     height: 75vh;
-    width: 40vw;
+    width: auto;
     padding-right: 60px;
 }
+
+/* 2nd section */
+.second-section{
+    
+    height: 85vh;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second-section-left img{
+    width: 50vw;
+
+}
+
+.second-section-right{
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.second-section-right h1, p, h4, h2 {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.second-section-right h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second-section-right p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.second-section-right h4{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.second-section-right h2{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.second-section-right button{
+    align-self: flex-end;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 48px;
+    border: none;
+    background: #FF42A5 ;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+  }
 
 
 
@@ -187,11 +264,15 @@ font-family: 'Work Sans', sans-serif;}
 
     .header{
         height: auto;
-        width: 300px;
-        background-color: #FFF;
-        display: block;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        
     }
 
    .header-right h1{
@@ -210,22 +291,20 @@ font-family: 'Work Sans', sans-serif;}
         gap: 20px;
     }
    
-   
-   
-   
-   
     .first-section{
-        display: inline-block;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        
         
     }
     .first-left{
-        background-image: url(images/Group\ 14.png);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 90vw;
-        height: 85vh;
         display: flex;
         align-items: center;
+        margin-top: 20px;
+        padding-bottom: 30px;
         
     }
 
@@ -234,14 +313,83 @@ font-family: 'Work Sans', sans-serif;}
         /*  border: 10px;
           border-color: #FF42A5;
           border-style: solid; ;*/
-          padding-left: 150px
+          padding-left: 80px;
+          padding-top: 20px;
+          padding-bottom: 10px;
       
       }
 
+      .first-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 150px;
+
+      }
+
       .first-right img{
-        height: auto;
-        width: 80vw;
-        padding-right: 60px;
-        padding-left: 60px;
-    }
+        height: 300px;
+        width: fit-content;
+      }
+
+.second-section{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 60px;
+}
+
+
+.second-section-left img{
+    width: 100vw;
+    margin-top: 50px;
+
+}
+
+
+.second-section-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    margin: auto;
+    align-items: center;
+}
+
+.second-section-right h1, p, h4, h2 {
+    text-align: center;
+    
+}
+
+.second-section-right h1{
+    margin-right: 20px;
+}
+
+.second-section-right h4{
+    margin-right: 110px;
+}
+
+
+.second-section-right button{
+    
+    padding: 21px 40px;
+    gap: 30px;
+    border-radius: 48px;
+    border: none;
+    background: #FF42A5 ;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+  }
+
 }
