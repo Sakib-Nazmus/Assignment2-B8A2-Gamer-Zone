@@ -257,6 +257,25 @@ font-family: 'Work Sans', sans-serif;}
 
 
 
+.third-section h1{
+    text-align: center;
+}
+
+.third-section p{
+    text-align: center;
+
+}
+.third-section-2{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -300,22 +319,23 @@ font-family: 'Work Sans', sans-serif;}
         
     }
     .first-left{
-        width: 90vw;
+        width: 500px;
         display: flex;
         align-items: center;
         margin-top: 20px;
         padding-bottom: 30px;
+        margin: auto;
+        
         
     }
 
     .first-left-main{
 
-        /*  border: 10px;
-          border-color: #FF42A5;
-          border-style: solid; ;*/
-          padding-left: 80px;
+          /*padding-left: 80px;*/
+
           padding-top: 20px;
           padding-bottom: 10px;
+          align-items: center;
       
       }
 
@@ -333,19 +353,18 @@ font-family: 'Work Sans', sans-serif;}
       }
 
 .second-section{
-    height: 70vh;
+    height: 90vh;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    width: 400px;
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-left: 60px;
 }
 
 
 .second-section-left img{
-    width: 100vw;
+    width: 100%;
     margin-top: 50px;
 
 }
@@ -355,13 +374,14 @@ font-family: 'Work Sans', sans-serif;}
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 400px;
+    width: 100%;
     margin: auto;
     align-items: center;
 }
 
 .second-section-right h1, p, h4, h2 {
     text-align: center;
+    align-self: center;
     
 }
 
@@ -370,7 +390,7 @@ font-family: 'Work Sans', sans-serif;}
 }
 
 .second-section-right h4{
-    margin-right: 110px;
+    
 }
 
 
@@ -389,7 +409,30 @@ font-family: 'Work Sans', sans-serif;}
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 100px;
+    align-self: center;
+    
   }
+
+.third-section{
+
+    width: 500px;
+    margin-top: 10px;
+}
+
+.third-section-1{
+
+
+}
+
+  .third-section-2{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    
+    margin-top: 30px;
+}
 
 }
