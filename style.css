@@ -694,15 +694,16 @@ font-family: 'Work Sans', sans-serif;}
         margin-top: 20px;
         padding-bottom: 30px;
         margin: auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        /* padding-left: 20px; */
+        /* padding-right: 20px; */
         
         
     }
 
     .first-left-main{
 
-          padding-left: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
           padding-top: 20px;
           padding-bottom: 10px;
           align-items: center;
@@ -846,6 +847,7 @@ font-family: 'Work Sans', sans-serif;}
 
 .fourth-section-left p{
     text-align: center;
+    width: 300px;
 }
 
 /* Four extra */
@@ -871,6 +873,7 @@ font-family: 'Work Sans', sans-serif;}
 
 .fourth-section-extra .fourth-section-left p{
     text-align: center;
+    width: 300px;
 }
 
 .fourth-section-extra .container{
