@@ -311,6 +311,38 @@ font-family: 'Work Sans', sans-serif;}
     margin: auto;
 }
 
+.image{
+    position: relative;
+}
+
+.hover-image{
+    
+        
+        opacity: 0;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 200px;
+        margin-right: 550px;
+        margin-left: -170px;
+        
+      }
+
+.image:hover{ 
+    opacity: 0.4;
+  }
+
+.hover-image:hover{ 
+    opacity: 0.6;
+    padding: auto;
+   
+  }
+  
+
+
+
+
 /* Fourth section */
 
 .fourth-section{
@@ -805,10 +837,11 @@ font-family: 'Work Sans', sans-serif;}
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
     margin-top: 30px;
 }
+
+
 
 
 /* Fourth section */
