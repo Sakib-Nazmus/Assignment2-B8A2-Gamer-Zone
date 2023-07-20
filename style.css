@@ -892,48 +892,40 @@ font-family: 'Work Sans', sans-serif;}
 /* Five section */
 
 .five-section{
-    
-    
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 500px;
-    gap: 20px;
-    border: 5px solid gold;
-
+    justify-content: start;
+    width: 100vw;
+    gap: 20px;  
+    align-items: start;
 }
 
 
 
 .five-section-right img{
-    width: 300px;
+    width: 400px;
 }
 
 .five-section-left{ 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border: 5px solid rgb(142, 22, 88);
-    width: 500px;
+    justify-content: start;
+    width: 95vw;
     margin: auto;
+    padding-left: 0;
+    align-items: start;
     
     
 }
 
-.five-section-left h1 {
-    text-align: center;
-    width: 400px;
-    
+.five-section-left .care{
+    text-align: left; 
 }
 
 .five-section-left p {
-    text-align: center;
-    width: 400px;
-    
-
-    
+    text-align: left;  
 }
 
 .five-left-text{
@@ -945,18 +937,18 @@ font-family: 'Work Sans', sans-serif;}
 
 .five-left-text h6{
     text-align: right;
-    
+    size: 14px;
 
 }
 
 .five-left-text h5{
     text-align: left;
+    size: 14px;
 }
 
 .five-section-left button{
-  
-    padding: 2px 2px;
-
+    padding: 12px 12px;
+    
 } 
 
 /* Six section */
