@@ -355,7 +355,8 @@ font-family: 'Work Sans', sans-serif;}
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    text-align: right;
 }
 
 
@@ -380,6 +381,79 @@ font-family: 'Work Sans', sans-serif;}
     transform: translateX(-100px) translateY(250px);
 
 }
+
+   /* 4th Section extra */
+
+.fourth-section-extra{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    height: 700px;
+}
+
+.fourth-section-extra .fourth-section-left {
+    /* margin-left: 150px; */
+}
+
+.fourth-section-extra .fourth-section-left span {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.fourth-section-extra .fourth-section-left h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    color: #0B0223;
+
+}
+
+
+.fourth-section-extra .fourth-section-left h1, p {
+    text-align: left;
+}
+
+.fourth-section-extra .fourth-section-left p {
+    width: 400px;
+    margin: auto;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    text-align: left;
+}
+
+
+
+.fourth-section-extra .inner img{
+
+    width: 218px;
+    height: 265px;
+}
+
+.fourth-section-extra .container{
+    width: 430px;
+    height: 450px;
+    background-image: url(images/Rectangle\ 67.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fourth-section-extra .inner{
+    width: 218px;
+    height: 265px;
+    transform: translateX(300px) translateY(250px);
+
+}
+
+
 
    /* Five section */
 
@@ -469,18 +543,24 @@ font-family: 'Work Sans', sans-serif;}
     align-content: center;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 30px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
 
 .box{
     display: flex;
     flex-basis: 240px;
-    padding: 15px;
+    padding: 12px;
     border-radius: 50px;
-    border: 3px solid #FF42A5;
+    background-color: #FFF;
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.box:hover{
+    border: 3px solid #FF42A5;
 }
 
 .box img{
@@ -490,7 +570,7 @@ font-family: 'Work Sans', sans-serif;}
 
 .box h1{
     color: #0B0223;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: normal;
 }
